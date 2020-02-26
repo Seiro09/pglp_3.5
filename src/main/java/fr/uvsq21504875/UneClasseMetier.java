@@ -1,7 +1,5 @@
 package fr.uvsq21504875;
 
-import java.time.LocalDateTime;
-
 /**
  * Hello world!
  *
@@ -9,12 +7,14 @@ import java.time.LocalDateTime;
 public class UneClasseMetier
 {
 
+  Logging l;
   public void uneMethodeMetier(){
-    System.out.println(LocalDateTime.now()+": Début de uneMethodeMetier");
+    l.afficheMessage("Debut de uneMethodeMetier");
 
     //Traitement métiers
 
-    System.out.println(LocalDateTime.now()+": Fin de uneMethodeMetier");
+    l.afficheMessage("Fin de uneMethodeMetier");
+
 
   }
 }
