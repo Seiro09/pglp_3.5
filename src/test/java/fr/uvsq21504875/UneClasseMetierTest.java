@@ -7,6 +7,8 @@ import static org.junit.Assert.*;
 public class UneClasseMetierTest {
   @Test
   public void uneMethodeMetier() throws Exception {
+    UneClasseMetier u = new UneClasseMetier();
+
   }
 
 }

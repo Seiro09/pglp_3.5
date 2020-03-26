@@ -7,6 +7,8 @@ import static org.junit.Assert.*;
 public class LoggingTest {
   @Test
   public void afficheMessage() throws Exception {
+    Logging l = new Logging();
+
   }
 
 }
